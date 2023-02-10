@@ -1,4 +1,4 @@
-# fly.toml file generated for nakuru on 2023-02-10T15:47:45+01:00
+# fly.toml file generated for nakuru on 2023-02-10T22:23:32+01:00
 
 app = "nakuru"
 kill_signal = "SIGINT"
