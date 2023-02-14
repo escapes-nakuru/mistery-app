@@ -3,9 +3,9 @@ const router = express.Router();
 const User = require('../models/User');
 
 /* GET home page. */
-router.get('/', async function (req, res, next) {
-  const users = await User.find({});
-  res.json({ users: users });
+router.get('/', function (req, res, next) {
+  console.log('hola');
+  res.render('index', { title: 'Nakuru team' });
 });
 
 module.exports = router;
